@@ -1,0 +1,7 @@
+{
+  "name": "رستوران عابدینزاده | Abedinzadeh Restaurant",
+  "description": "اپلیکیشن رستوران عابدینزاده - طعم اصیل، لذتی ماندگار. سفارش آنلاین غذا، رزرو تشریفاتی میز و باشگاه مشتریان.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,526 @@
+{
+  "users": [
+    {
+      "id": "u-admin-shaygan",
+      "phone": "09123457890",
+      "fullName": "مدیریت کاخ شایگان",
+      "role": "admin",
+      "email": "admin@shaygan.ir",
+      "address": "تهران، خیابان نیاوران، کاخ پذیرایی شایگان، بخش مدیریت",
+      "membershipLevel": "طلایی",
+      "points": 5000,
+      "addresses": [
+        {
+          "id": "addr-admin-1",
+          "title": "دفتر مدیریت",
+          "address": "تهران، خیابان نیاوران، کاخ پذیرایی شایگان، بخش مدیریت",
+          "isDefault": true
+        }
+      ],
+      "joinedDate": "۱۴۰۲/۰۱/۱۵",
+      "favorites": [
+        "kebab-soltani",
+        "baghali-polo"
+      ]
+    },
+    {
+      "id": "u-admin",
+      "phone": "09121112233",
+      "fullName": "مدیریت کاخ شایگان",
+      "role": "admin",
+      "email": "admin@shaygan.ir",
+      "address": "تهران، خیابان نیاوران، کاخ پذیرایی شایگان، بخش مدیریت",
+      "membershipLevel": "طلایی",
+      "points": 4500,
+      "addresses": [
+        {
+          "id": "addr-admin-1",
+          "title": "دفتر مدیریت",
+          "address": "تهران، خیابان نیاوران، کاخ پذیرایی شایگان، بخش مدیریت",
+          "isDefault": true
+        }
+      ],
+      "joinedDate": "۱۴۰۲/۰۱/۱۵",
+      "favorites": [
+        "kebab-soltani",
+        "baghali-polo"
+      ]
+    },
+    {
+      "id": "u-customer-1",
+      "phone": "09123456789",
+      "fullName": "امیرحسین رضایی",
+      "role": "customer",
+      "email": "amir@example.com",
+      "address": "تهران، نیاوران، خیابان یاسر، بن‌بست مریم، پلاک ۱۲، واحد ۴",
+      "membershipLevel": "نقره‌ای",
+      "points": 850,
+      "addresses": [
+        {
+          "id": "addr-1",
+          "title": "منزل",
+          "address": "تهران، نیاوران، خیابان یاسر، بن‌بست مریم، پلاک ۱۲، واحد ۴",
+          "isDefault": true
+        }
+      ],
+      "joinedDate": "۱۴۰۳/۰۴/۱۰",
+      "favorites": [
+        "kebab-soltani",
+        "ghormeh-sabzi"
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "kebab-soltani",
+      "name": "چلو کباب سلطانی زرین شایگان",
+      "nameEn": "Royal Shaygan Soltani Kebab",
+      "description": "ترکیب یک سیخ کباب برگ راسته بره ۳۰۰ گرمی و یک سیخ کوبیده زعفرانی با برنج دودی طارم و تهدیگ زعفرانی",
+      "descriptionEn": "Combination of 300g tender lamb fillet and seasoned minced lamb kebab served with Persian saffron rice & tahdig",
+      "price": 680000,
+      "category": "kebab",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.9,
+      "reviewsCount": 148,
+      "isPopular": true,
+      "isTraditional": true,
+      "isChefSpecial": true,
+      "isAvailable": true,
+      "ingredients": [
+        "راسته بره نرینه",
+        "گوشت سرقلوه گوسفندی",
+        "زعفران ممتاز قائنات",
+        "برنج دودی طارم اصل",
+        "کره محلی کرمانشاهی",
+        "گوجه فرنگی و فلفل کبابی"
+      ],
+      "ingredientsEn": [
+        "Prime Lamb Tenderloin",
+        "Minced Lamb",
+        "Qaen Saffron",
+        "Smoked Tarom Rice",
+        "Kermanshahi Ghee",
+        "Grilled Tomatoes"
+      ],
+      "preparationTime": "۲۵-۳۰ دقیقه",
+      "calories": 890
+    },
+    {
+      "id": "kebab-shishlik",
+      "name": "چلو کباب شیشلیک شاندیز شایگان",
+      "nameEn": "Palace Shandiz Lamb Ribs (Shishlik)",
+      "description": "شش قطعه دنده مرینیت‌شده با آب پیاز، زعفران و فلفل سیاه پخته‌شده بر روی زغال چوب پسته همراه با برنج قالبی",
+      "descriptionEn": "Six prime lamb rib chops marinated in onion juice and saffron, flame-grilled on aromatic pistachio charcoal",
+      "price": 790000,
+      "originalPrice": 880000,
+      "discountPercent": 10,
+      "category": "kebab",
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.95,
+      "reviewsCount": 210,
+      "isPopular": true,
+      "isTraditional": true,
+      "isChefSpecial": true,
+      "isAvailable": true,
+      "ingredients": [
+        "دنده گوسفندی بره تازه",
+        "پیاز شاهرود",
+        "زعفران سوپر نگین",
+        "برنج زعفرانی هاشمی",
+        "سماق تازه تبریز"
+      ],
+      "ingredientsEn": [
+        "Fresh Lamb Rib Chops",
+        "Sweet Onions",
+        "Super Negin Saffron",
+        "Hashemi Saffron Rice",
+        "Fresh Red Sumac"
+      ],
+      "preparationTime": "۳۰ دقیقه",
+      "calories": 940
+    },
+    {
+      "id": "kebab-koobideh",
+      "name": "چلو کباب کوبیده زعفرانی دوسیخ",
+      "nameEn": "Twin Skewers Saffron Koobideh",
+      "description": "دو سیخ کوبیده دست‌ساز ترکیب قلوه‌گاه بره و مغز ران گوساله جوان با چلو زعفرانی و گوجه فرنگی تنوری",
+      "descriptionEn": "Two artisanal skewers of seasoned ground lamb and beef with aromatic saffron basmati rice",
+      "price": 430000,
+      "originalPrice": 480000,
+      "discountPercent": 10,
+      "category": "kebab",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.88,
+      "reviewsCount": 320,
+      "isPopular": true,
+      "isTraditional": true,
+      "isAvailable": true,
+      "ingredients": [
+        "قلوه‌گاه بره",
+        "راسته گوساله جوان",
+        "پیاز سفید",
+        "نمک دریا",
+        "سماق ارگانیک"
+      ],
+      "ingredientsEn": [
+        "Lamb Flank",
+        "Veal Loin",
+        "White Onion",
+        "Sea Salt",
+        "Organic Sumac"
+      ],
+      "preparationTime": "۲۰ دقیقه",
+      "calories": 780
+    },
+    {
+      "id": "ghormeh-sabzi",
+      "name": "چلو قورمه سبزی جاافتاده درباری",
+      "nameEn": "Royal Ghormeh Sabzi with Lamb Shanks",
+      "description": "سبزی‌های کوهی معطر تفت‌داده با روغن کرمانشاهی، گوشت لخم گوسفندی، لیمو عمانی دست‌چین جهرم و چلو کره",
+      "descriptionEn": "Signature Persian herb stew with braised lamb cuts, wild fenugreek, dried Jahrom limes, and saffron rice",
+      "price": 460000,
+      "category": "stew",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.93,
+      "reviewsCount": 245,
+      "isPopular": true,
+      "isTraditional": true,
+      "isAvailable": true,
+      "ingredients": [
+        "سبزیجات تازه قورمه",
+        "گوشت تکه‌ای راسته گوسفندی",
+        "لیمو عمانی اصل جهرم",
+        "لوبیا چیتی خمین",
+        "روغن کرمانشاهی"
+      ],
+      "ingredientsEn": [
+        "Fresh Sautéed Herbs",
+        "Lamb Loin Chunks",
+        "Dried Persian Black Limes",
+        "Kermanshahi Clarified Butter"
+      ],
+      "preparationTime": "۱۵ دقیقه",
+      "calories": 710
+    },
+    {
+      "id": "baghali-polo",
+      "name": "باقالی‌پلو با ماهیچه زعفرانی مجلسی",
+      "nameEn": "Baghali Polo with Saffron Lamb Shank",
+      "description": "ماهیچه گوسفندی درشت ۵۰۰ گرمی نرم و پنبه‌ای با عطر هل و دارچین در کنار برنج شوید و باقلا تازه کاشان",
+      "descriptionEn": "500g tender slow-cooked lamb shank melted in caramelized sauce served over fresh dill and fava bean rice",
+      "price": 720000,
+      "category": "polo",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.94,
+      "reviewsCount": 184,
+      "isPopular": true,
+      "isTraditional": true,
+      "isChefSpecial": true,
+      "isAvailable": true,
+      "ingredients": [
+        "ماهیچه گوسفندی تازه",
+        "باقلا سبز ارگانیک",
+        "شوید تازه خوش‌عطر",
+        "برنج عطری طارم",
+        "عصاره دارچین و هل شاهانه"
+      ],
+      "ingredientsEn": [
+        "Whole Lamb Shank",
+        "Organic Fava Beans",
+        "Fresh Fragrant Dill",
+        "Tarom Fragrant Rice",
+        "Cardamom & Cinnamon Extract"
+      ],
+      "preparationTime": "۲۰ دقیقه",
+      "calories": 820
+    },
+    {
+      "id": "khorak-mahiche",
+      "name": "خوراک ماهیچه مخصوص شایگان",
+      "nameEn": "Shaygan Braised Lamb Shank (Khorak)",
+      "description": "ماهیچه گوسفندی ۵۰۰ گرمی نرم و پنبه‌ای با سس غلیظ زعفرانی، پیاز کاراملی، دورچین سبزیجات پخته و نان سنگک داغ",
+      "descriptionEn": "Tender 500g slow-braised lamb shank in saffron onion gravy with roasted vegetables and hot flatbread",
+      "price": 640000,
+      "category": "khorak",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.96,
+      "reviewsCount": 160,
+      "isPopular": true,
+      "isChefSpecial": true,
+      "isAvailable": true,
+      "ingredients": [
+        "ماهیچه گوسفندی تازه",
+        "عصاره پیاز کاراملی",
+        "زعفران سوپر نگین",
+        "هل و دارچین",
+        "دورچین سبزیجات"
+      ],
+      "ingredientsEn": [
+        "Prime Lamb Shank",
+        "Caramelized Onion Gravy",
+        "Saffron",
+        "Spices",
+        "Vegetables"
+      ],
+      "preparationTime": "۲۰ دقیقه",
+      "calories": 710
+    },
+    {
+      "id": "burger-royal",
+      "name": "برگر دوبل ذغالی دست‌ساز با پنیر گودا",
+      "nameEn": "Handcrafted Double Charcoal Burger",
+      "description": "دو لایه گوشت گوساله خالص ۱۶۰ گرمی با پنیر گودا دوبل، سس باربیکیو دودی و نان بریوش کنجدی",
+      "descriptionEn": "Double 160g handcrafted beef patty with melted gouda, smoked BBQ sauce and sesame brioche bun",
+      "price": 390000,
+      "category": "fastfood",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.89,
+      "reviewsCount": 118,
+      "isPopular": true,
+      "isFastfood": true,
+      "isAvailable": true,
+      "ingredients": [
+        "گوشت راسته گوساله",
+        "نان بریوش دست‌ساز",
+        "پنیر گودا",
+        "سس مخصوص دودی",
+        "کاهو و گوجه"
+      ],
+      "ingredientsEn": [
+        "Prime Beef",
+        "Brioche Bun",
+        "Gouda Cheese",
+        "Smoked Sauce",
+        "Salad"
+      ],
+      "preparationTime": "۲۰ دقیقه",
+      "calories": 820
+    },
+    {
+      "id": "dessert-baklava",
+      "name": "باقلوای استانبولی پسته با بستنی سنتی زعفرانی",
+      "nameEn": "Pistachio Baklava with Saffron Ice Cream",
+      "description": "باقلوای ترد ورقه‌ای پر از پسته اعلای رفسنجان همراه با یک اسکوپ بستنی سنتی زعفرانی، تکه‌های خامه سرشیر و پودر گل سرخ",
+      "descriptionEn": "Flaky layered pistachio baklava paired with handcrafted Persian saffron clotted cream ice cream and dried Damask rose petals",
+      "price": 185000,
+      "category": "dessert",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.98,
+      "reviewsCount": 220,
+      "isPopular": true,
+      "isAvailable": true,
+      "ingredients": [
+        "خمیر یوفکای نازک طلایی",
+        "پسته تازه رفسنجان",
+        "شهد عسل و هل",
+        "بستنی زعفرانی سنتی",
+        "سرشیر تازه"
+      ],
+      "ingredientsEn": [
+        "Golden Phyllo Pastry",
+        "Rafsanjan Pistachios",
+        "Honey Cardamom Syrup",
+        "Saffron Ice Cream",
+        "Clotted Cream"
+      ],
+      "preparationTime": "۱۰ دقیقه",
+      "calories": 460
+    },
+    {
+      "id": "appetizer-salad-caesar",
+      "name": "سالاد سزار با فیله گریل زعفرانی",
+      "nameEn": "Chicken Caesar Salad",
+      "description": "کاهو پیچ ترد، فیله مرغ گریل شده زعفرانی، کروتون نان سیر تست‌شده، پنیر پارمزان ایتالیایی و سس سزار دست‌ساز",
+      "descriptionEn": "Romaine lettuce, grilled saffron chicken breast, garlic herb croutons, aged parmesan & creamy Caesar dressing",
+      "price": 138000,
+      "category": "appetizer",
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.93,
+      "reviewsCount": 230,
+      "isPopular": true,
+      "isAvailable": true,
+      "ingredients": [
+        "کاهو پیچ",
+        "فیله سینه مرغ گریل",
+        "پنیر پارمزان",
+        "نان تست سیر",
+        "سس سزار اعلا"
+      ],
+      "ingredientsEn": [
+        "Romaine Lettuce",
+        "Grilled Chicken",
+        "Parmesan",
+        "Garlic Croutons",
+        "Caesar Dressing"
+      ],
+      "preparationTime": "۱۵ دقیقه",
+      "calories": 380
+    },
+    {
+      "id": "drink-coca-can-black",
+      "name": "نوشابه قوطی کوکاکولا (مشکی)",
+      "nameEn": "Coca-Cola Classic Can 330ml",
+      "description": "نوشابه قوطی ۳۳۰ میلی‌لیتر کوکاکولا اصل خنک و گازدار",
+      "descriptionEn": "330ml ice cold Coca-Cola classic aluminum can",
+      "price": 28000,
+      "category": "drink",
+      "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=85",
+      "rating": 4.95,
+      "reviewsCount": 390,
+      "isPopular": true,
+      "isAvailable": true,
+      "ingredients": [
+        "عصاره اصیل کولا",
+        "آب تصفیه شده گازدار"
+      ],
+      "ingredientsEn": [
+        "Classic Cola Formula",
+        "Carbonated Water"
+      ],
+      "preparationTime": "۱ دقیقه",
+      "calories": 139
+    },
+    {
+      "id": "extra-cutlery-pack",
+      "name": "پک قاشق و چنگال بهداشتی",
+      "nameEn": "Cutlery & Napkin Pack",
+      "description": "بسته‌بندی بهداشتی شامل قاشق، چنگال کریستالی، دستمال کاغذی و خلال دندان",
+      "descriptionEn": "Hygienic sealed pack with spoon, fork, napkin & toothpick",
+      "price": 5000,
+      "category": "extra",
+      "image": "",
+      "hideImage": true,
+      "rating": 4.9,
+      "reviewsCount": 80,
+      "isAvailable": true,
+      "ingredients": [
+        "قاشق و چنگال استاندارد بهداشتی"
+      ],
+      "ingredientsEn": [
+        "Hygienic Spoon & Fork"
+      ],
+      "preparationTime": "۱ دقیقه"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cp-welcome",
+      "code": "SHAYGANFIRST",
+      "title": "تخفیف ویژه اولین سفارش کاخ شایگان",
+      "type": "percent",
+      "amount": 25,
+      "maxDiscount": 150000,
+      "minOrderAmount": 300000,
+      "isFirstOrderOnly": true,
+      "validUntil": "2026-12-30",
+      "isCampaign": false,
+      "isSingleUse": true,
+      "usedByPhones": [],
+      "isActive": true,
+      "usageCount": 0,
+      "createdAt": "2026-09-23T21:28:33.155Z"
+    },
+    {
+      "id": "cp-festive",
+      "code": "NOWRUZ50",
+      "title": "تخفیف جشنواره عیدانه شایگان",
+      "type": "fixed",
+      "amount": 50000,
+      "minOrderAmount": 350000,
+      "isFirstOrderOnly": false,
+      "validUntil": "2026-08-30",
+      "isCampaign": true,
+      "campaignName": "جشنواره بهاره",
+      "isSingleUse": false,
+      "usedByPhones": [],
+      "isActive": true,
+      "usageCount": 12,
+      "createdAt": "2026-09-23T21:28:33.155Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-7819",
+      "userId": "u-customer-1",
+      "customerName": "امیرحسین رضایی",
+      "phone": "09123456789",
+      "address": "تهران، نیاوران، خیابان یاسر، بن‌بست مریم، پلاک ۱۲، واحد ۴",
+      "items": [
+        {
+          "food": {
+            "id": "kebab-soltani",
+            "name": "چلو کباب سلطانی زرین شایگان",
+            "nameEn": "Royal Shaygan Soltani Kebab",
+            "description": "",
+            "descriptionEn": "",
+            "price": 680000,
+            "category": "kebab",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=85",
+            "rating": 4.9,
+            "reviewsCount": 148,
+            "ingredients": [],
+            "ingredientsEn": [],
+            "preparationTime": "۲۵ دقیقه"
+          },
+          "quantity": 1
+        },
+        {
+          "food": {
+            "id": "appetizer-salad-caesar",
+            "name": "سالاد سزار با فیله گریل زعفرانی",
+            "nameEn": "Chicken Caesar Salad",
+            "description": "",
+            "descriptionEn": "",
+            "price": 138000,
+            "category": "appetizer",
+            "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=85",
+            "rating": 4.93,
+            "reviewsCount": 230,
+            "ingredients": [],
+            "ingredientsEn": [],
+            "preparationTime": "۱۵ دقیقه"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 818000,
+      "deliveryFee": 35000,
+      "discount": 50000,
+      "couponCode": "NOWRUZ50",
+      "total": 803000,
+      "deliveryType": "delivery",
+      "paymentMethod": "online",
+      "status": "delivered",
+      "orderTime": "۱۴:۳۵ - امروز",
+      "etaMinutes": 20,
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "timestamp": "14:35",
+          "note": "سفارش در سیستم ثبت شد"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "14:37",
+          "note": "تایید توسط مدیریت رستوران"
+        },
+        {
+          "status": "cooking",
+          "timestamp": "14:40",
+          "note": "آشپزخانه در حال پخت"
+        },
+        {
+          "status": "delivering",
+          "timestamp": "15:05",
+          "note": "پیک شایگان در مسیر تحویل"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "۲۱:۴۹",
+          "note": "وضعیت سفارش به delivered تغییر یافت"
+        }
+      ]
+    }
+  ],
+  "otps": {}
+}
